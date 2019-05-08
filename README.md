@@ -22,8 +22,8 @@ CONTAINER ID        IMAGE                               COMMAND                 
 3) Verity the deployment by navigating to the below URL's using your preferred browser:
 
 - http://localhost/
-> it should preview the Nginx home page
+> It should preview Nginx home page
 
 - http://localhost/app1
 - http://localhost/app2
-> it should preview application page "DevOpsArea Java Sample Project 1" or "DevOpsArea Java Sample Project 2" respectively.
+> It should preview application page "DevOpsArea Java Sample Project 1" or "DevOpsArea Java Sample Project 2" respectively.
