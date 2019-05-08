@@ -1,11 +1,11 @@
-# DevOps
+# Session 2
 
 **Testing:**
 1) clone repo and run the below command:
 
 ````sh
-$ git clone https://github.com/mostafaismail/DevOps.git
-$ cd DevOps
+$ git clone https://github.com/mostafaismail/session_2.git
+$ cd session_2
 $ docker-compose up -d
 ````
 
