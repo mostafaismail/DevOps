@@ -1,0 +1,22 @@
+version: "3"
+services:
+
+  nginx:
+    image: mostafaismail/session_2_prj_nginx
+    ports:
+      - "80:80"
+    links:
+      - app1
+      - app2
+    container_name: nginxserver
+  app1:
+    image: mostafaismail/session_2_prj_app1
+    ports:
+      - "6061:8080"
+    container_name: cont-app1
+  
+  app2:
+    build: ./java_app2/
+    ports:
+       - "6062:8080"
+    container_name: cont-app2
