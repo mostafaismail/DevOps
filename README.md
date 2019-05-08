@@ -1,7 +1,7 @@
 # Session 2
 
 **Testing:**
-1) clone repo and run the below command:
+1) Clone the assignment repo and run docker-compose as below:
 
 ````sh
 $ git clone https://github.com/mostafaismail/session_2.git
