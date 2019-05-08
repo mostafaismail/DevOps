@@ -1,6 +1,6 @@
 # DevOps
 
-Testing:
+**Testing:**
 1) clone repo and run the below command:
 
 ````sh
@@ -21,12 +21,9 @@ CONTAINER ID        IMAGE                               COMMAND                 
 
 3) Verity the deployment by navigating to the below URL's using your preferred browser:
 
-http://localhost/
+- http://localhost/
+> it should preview the Nginx home page
 
-it should preview the Nginx home page
-
-http://localhost/app1
-
-http://localhost/app2
-
-it should preview application page "DevOpsArea Java Sample Project 1" or "DevOpsArea Java Sample Project 2" respectively.
+- http://localhost/app1
+- http://localhost/app2
+> it should preview application page "DevOpsArea Java Sample Project 1" or "DevOpsArea Java Sample Project 2" respectively.
