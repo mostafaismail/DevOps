@@ -1,13 +1,15 @@
 # DevOps
 
 Testing:
-1) clone repo and run the below command
+1) clone repo and run the below command:
 
 ````sh
+$ git clone https://github.com/mostafaismail/DevOps.git
+$ cd DevOps
 $ docker-compose up -d
 ````
 
-2) Make sure that all 3 contianer are up and running:
+2) Make sure that all 3 contianers are up and running:
 
 ```sh
 $ docker container ls
